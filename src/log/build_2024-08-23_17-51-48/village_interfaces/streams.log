@@ -1,0 +1,7 @@
+[0.011s] Invoking command in '/home/ke/ANU/Algo Trading/ros2Exercise/src/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li:/opt/ros/iron /usr/bin/cmake /home/ke/ANU/Algo Trading/ros2Exercise/src/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/ke/ANU/Algo Trading/ros2Exercise/src/install/village_interfaces
+[0.159s] [31mCMake Error at CMakeLists.txt:16:
+[0.159s]   Parse error.  Expected a command name, got unquoted argument with text "{".
+[0.159s] 
+[0.159s] [0m
+[0.159s] -- Configuring incomplete, errors occurred!
+[0.160s] Invoked command in '/home/ke/ANU/Algo Trading/ros2Exercise/src/build/village_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li:/opt/ros/iron /usr/bin/cmake /home/ke/ANU/Algo Trading/ros2Exercise/src/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/ke/ANU/Algo Trading/ros2Exercise/src/install/village_interfaces

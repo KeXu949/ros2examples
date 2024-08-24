@@ -1,0 +1,31 @@
+[0.142s] Invoking command in '/home/ke/ANU/Algo Trading/ros2Exercise/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li:/opt/ros/iron /usr/bin/cmake --build /home/ke/ANU/Algo Trading/ros2Exercise/build/village_wang -- -j20 -l20
+[0.173s] [35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[0.189s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[1.637s] [01m[K/home/ke/ANU/Algo Trading/ros2Exercise/src/village_wang/src/wang2.cpp:10:9:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KSingleDogNode::[m[K’ on member ‘[01m[KSingleDogNode[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.637s]    10 |         [01;31m[KSingleDogNode[m[K::SingleDogNode(std::string name): Node(name)
+[1.637s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[1.637s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.637s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[1.637s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.637s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.637s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.637s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.637s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.638s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.638s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.638s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.638s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[1.638s]                  from [01m[K/home/ke/ANU/Algo Trading/ros2Exercise/src/village_wang/src/wang2.cpp:1[m[K:
+[1.638s] [01m[K/home/ke/ANU/Algo Trading/ros2Exercise/src/village_wang/src/wang2.cpp:[m[K In constructor ‘[01m[KSingleDogNode::SingleDogNode(std::string)[m[K’:
+[1.638s] [01m[K/home/ke/ANU/Algo Trading/ros2Exercise/src/village_wang/src/wang2.cpp:12:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.638s]    12 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Hello this is %s!"[m[K, name);
+[1.638s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.638s] [01m[K/home/ke/ANU/Algo Trading/ros2Exercise/src/village_wang/src/wang2.cpp:12:61:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.638s]    12 |             RCLCPP_INFO(this->get_logger(), "Hello this is [01;36m[K%s[m[K!", name);
+[1.638s]       |                                                            [01;36m[K~^[m[K
+[1.638s]       |                                                             [01;36m[K|[m[K
+[1.638s]       |                                                             [01;36m[Kchar*[m[K
+[1.959s] gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:76: CMakeFiles/wang2_node.dir/src/wang2.cpp.o] Error 1
+[1.959s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wang2_node.dir/all] Error 2
+[1.959s] gmake: *** [Makefile:146: all] Error 2
+[1.962s] Invoked command in '/home/ke/ANU/Algo Trading/ros2Exercise/build/village_wang' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li:/opt/ros/iron /usr/bin/cmake --build /home/ke/ANU/Algo Trading/ros2Exercise/build/village_wang -- -j20 -l20

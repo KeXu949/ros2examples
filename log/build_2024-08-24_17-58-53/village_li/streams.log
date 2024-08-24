@@ -1,0 +1,22 @@
+[0.401s] Invoking command in '/home/ke/ANU/Algo Trading/ros2Exercise/src/village_li': CMAKE_PREFIX_PATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang PYTHONPATH=/home/ke/ANU/Algo Trading/ros2Exercise/build/village_li/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li/lib/python3.10/site-packages:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/village_li build --build-base /home/ke/ANU/Algo Trading/ros2Exercise/build/village_li/build install --record /home/ke/ANU/Algo Trading/ros2Exercise/build/village_li/install.log --single-version-externally-managed install_data
+[0.544s] running egg_info
+[0.544s] writing ../../build/village_li/village_li.egg-info/PKG-INFO
+[0.544s] writing dependency_links to ../../build/village_li/village_li.egg-info/dependency_links.txt
+[0.545s] writing entry points to ../../build/village_li/village_li.egg-info/entry_points.txt
+[0.545s] writing requirements to ../../build/village_li/village_li.egg-info/requires.txt
+[0.545s] writing top-level names to ../../build/village_li/village_li.egg-info/top_level.txt
+[0.546s] reading manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.546s] writing manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.546s] running build
+[0.546s] running build_py
+[0.546s] running install
+[0.546s] running install_lib
+[0.547s] running install_data
+[0.547s] running install_egg_info
+[0.548s] removing '/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info' (and everything under it)
+[0.548s] Copying ../../build/village_li/village_li.egg-info to /home/ke/ANU/Algo Trading/ros2Exercise/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info
+[0.549s] running install_scripts
+[0.562s] Installing li3_node script to /home/ke/ANU/Algo Trading/ros2Exercise/install/village_li/lib/village_li
+[0.562s] Installing li4_node script to /home/ke/ANU/Algo Trading/ros2Exercise/install/village_li/lib/village_li
+[0.562s] writing list of installed files to '/home/ke/ANU/Algo Trading/ros2Exercise/build/village_li/install.log'
+[0.579s] Invoked command in '/home/ke/ANU/Algo Trading/ros2Exercise/src/village_li' returned '0': CMAKE_PREFIX_PATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang PYTHONPATH=/home/ke/ANU/Algo Trading/ros2Exercise/build/village_li/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li/lib/python3.10/site-packages:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/village_li build --build-base /home/ke/ANU/Algo Trading/ros2Exercise/build/village_li/build install --record /home/ke/ANU/Algo Trading/ros2Exercise/build/village_li/install.log --single-version-externally-managed install_data

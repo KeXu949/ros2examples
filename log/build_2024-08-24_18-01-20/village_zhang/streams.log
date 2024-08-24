@@ -1,0 +1,48 @@
+[0.152s] Invoking command in '/home/ke/ANU/Algo Trading/ros2Exercise/build/village_zhang': CMAKE_PREFIX_PATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li:/opt/ros/iron PYTHONPATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake /home/ke/ANU/Algo Trading/ros2Exercise/src/village_zhang -DCMAKE_INSTALL_PREFIX=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_zhang
+[0.158s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.261s] -- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)
+[0.283s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.288s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.297s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.307s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.403s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.404s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.498s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.598s] -- Found village_interfaces: 0.0.0 (/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/cmake)
+[0.813s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[0.854s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.854s] -- Configured cppcheck include dirs: 
+[0.854s] -- Configured cppcheck exclude dirs and/or files: 
+[0.854s] -- Added test 'lint_cmake' to check CMake code style
+[0.855s] -- Added test 'uncrustify' to check C / C++ code style
+[0.855s] -- Configured uncrustify additional arguments: 
+[0.855s] -- Added test 'xmllint' to check XML markup files
+[0.856s] -- Configuring done
+[0.862s] -- Generating done
+[0.863s] -- Build files have been written to: /home/ke/ANU/Algo Trading/ros2Exercise/build/village_zhang
+[0.869s] Invoked command in '/home/ke/ANU/Algo Trading/ros2Exercise/build/village_zhang' returned '0': CMAKE_PREFIX_PATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li:/opt/ros/iron PYTHONPATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake /home/ke/ANU/Algo Trading/ros2Exercise/src/village_zhang -DCMAKE_INSTALL_PREFIX=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_zhang
+[0.869s] Invoking command in '/home/ke/ANU/Algo Trading/ros2Exercise/build/village_zhang': CMAKE_PREFIX_PATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li:/opt/ros/iron PYTHONPATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/ke/ANU/Algo Trading/ros2Exercise/build/village_zhang -- -j20 -l20
+[0.907s] [ 50%] [32mBuilding CXX object CMakeFiles/zhang3_node.dir/src/zhang3.cpp.o[0m
+[2.794s] [100%] [32m[1mLinking CXX executable zhang3_node[0m
+[2.876s] [100%] Built target zhang3_node
+[2.886s] Invoked command in '/home/ke/ANU/Algo Trading/ros2Exercise/build/village_zhang' returned '0': CMAKE_PREFIX_PATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li:/opt/ros/iron PYTHONPATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/ke/ANU/Algo Trading/ros2Exercise/build/village_zhang -- -j20 -l20
+[2.906s] Invoking command in '/home/ke/ANU/Algo Trading/ros2Exercise/build/village_zhang': CMAKE_PREFIX_PATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li:/opt/ros/iron PYTHONPATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /home/ke/ANU/Algo Trading/ros2Exercise/build/village_zhang
+[2.910s] -- Install configuration: ""
+[2.911s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_zhang/share/ament_index/resource_index/package_run_dependencies/village_zhang
+[2.911s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_zhang/share/ament_index/resource_index/parent_prefix_path/village_zhang
+[2.911s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_zhang/share/village_zhang/environment/ament_prefix_path.sh
+[2.911s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_zhang/share/village_zhang/environment/ament_prefix_path.dsv
+[2.911s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_zhang/share/village_zhang/environment/path.sh
+[2.912s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_zhang/share/village_zhang/environment/path.dsv
+[2.912s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_zhang/share/village_zhang/local_setup.bash
+[2.912s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_zhang/share/village_zhang/local_setup.sh
+[2.912s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_zhang/share/village_zhang/local_setup.zsh
+[2.912s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_zhang/share/village_zhang/local_setup.dsv
+[2.912s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_zhang/share/village_zhang/package.dsv
+[2.912s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_zhang/share/ament_index/resource_index/packages/village_zhang
+[2.912s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_zhang/share/village_zhang/cmake/village_zhangConfig.cmake
+[2.912s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_zhang/share/village_zhang/cmake/village_zhangConfig-version.cmake
+[2.912s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_zhang/share/village_zhang/package.xml
+[2.913s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_zhang/lib/village_zhang/zhang3_node
+[2.913s] -- Set runtime path of "/home/ke/ANU/Algo Trading/ros2Exercise/install/village_zhang/lib/village_zhang/zhang3_node" to ""
+[2.913s] Invoked command in '/home/ke/ANU/Algo Trading/ros2Exercise/build/village_zhang' returned '0': CMAKE_PREFIX_PATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li:/opt/ros/iron PYTHONPATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /home/ke/ANU/Algo Trading/ros2Exercise/build/village_zhang

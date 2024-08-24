@@ -1,0 +1,235 @@
+[0.011s] Invoking command in '/home/ke/ANU/Algo Trading/ros2Exercise/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li:/opt/ros/iron /usr/bin/cmake /home/ke/ANU/Algo Trading/ros2Exercise/src/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces
+[0.148s] -- The C compiler identification is GNU 11.4.0
+[0.149s] -- The CXX compiler identification is GNU 11.4.0
+[0.149s] -- Detecting C compiler ABI info
+[0.149s] -- Detecting C compiler ABI info - done
+[0.149s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.149s] -- Detecting C compile features
+[0.149s] -- Detecting C compile features - done
+[0.149s] -- Detecting CXX compiler ABI info
+[0.200s] -- Detecting CXX compiler ABI info - done
+[0.204s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.204s] -- Detecting CXX compile features
+[0.204s] -- Detecting CXX compile features - done
+[0.205s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.333s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.384s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[0.404s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.410s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.419s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.430s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.549s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[0.555s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[0.757s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[1.038s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.147s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.167s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.168s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[1.187s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.187s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.187s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.187s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.204s] -- Found PythonExtra: .so  
+[1.247s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.256s] -- Added test 'lint_cmake' to check CMake code style
+[1.256s] -- Added test 'xmllint' to check XML markup files
+[1.257s] -- Configuring done
+[1.277s] -- Generating done
+[1.278s] -- Build files have been written to: /home/ke/ANU/Algo Trading/ros2Exercise/build/village_interfaces
+[1.285s] Invoked command in '/home/ke/ANU/Algo Trading/ros2Exercise/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li:/opt/ros/iron /usr/bin/cmake /home/ke/ANU/Algo Trading/ros2Exercise/src/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces
+[1.286s] Invoking command in '/home/ke/ANU/Algo Trading/ros2Exercise/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li:/opt/ros/iron /usr/bin/cmake --build /home/ke/ANU/Algo Trading/ros2Exercise/build/village_interfaces -- -j20 -l20
+[1.326s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.332s] [  2%] Built target ament_cmake_python_copy_village_interfaces
+[1.457s] [  2%] Built target village_interfaces__rosidl_generator_type_description
+[1.460s] running egg_info
+[1.460s] creating village_interfaces.egg-info
+[1.460s] writing village_interfaces.egg-info/PKG-INFO
+[1.460s] writing dependency_links to village_interfaces.egg-info/dependency_links.txt
+[1.461s] writing top-level names to village_interfaces.egg-info/top_level.txt
+[1.461s] writing manifest file 'village_interfaces.egg-info/SOURCES.txt'
+[1.463s] reading manifest file 'village_interfaces.egg-info/SOURCES.txt'
+[1.463s] writing manifest file 'village_interfaces.egg-info/SOURCES.txt'
+[1.467s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.478s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.490s] [  8%] Built target ament_cmake_python_build_village_interfaces_egg
+[1.642s] [  8%] Built target village_interfaces__cpp
+[1.661s] [ 11%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/msg/detail/novel__functions.c.o[0m
+[1.663s] [ 14%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/msg/detail/novel__description.c.o[0m
+[1.664s] [ 17%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/msg/detail/novel__type_support.c.o[0m
+[1.699s] [ 20%] [32m[1mLinking C shared library libvillage_interfaces__rosidl_generator_c.so[0m
+[1.732s] [ 20%] Built target village_interfaces__rosidl_generator_c
+[1.740s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.740s] [ 29%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.740s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.742s] [ 32%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.742s] [ 35%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.743s] [ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.916s] [ 41%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/msg/novel__type_support.cpp.o[0m
+[1.918s] [ 44%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/msg/novel__type_support.cpp.o[0m
+[1.927s] [ 47%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/msg/detail/novel__type_support.cpp.o[0m
+[1.934s] [ 50%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/msg/detail/novel__type_support_c.cpp.o[0m
+[1.954s] [ 52%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_c.so[0m
+[1.958s] [ 55%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.c.o[0m
+[1.965s] [ 58%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/msg/detail/dds_fastrtps/novel__type_support.cpp.o[0m
+[1.989s] [ 58%] Built target village_interfaces__rosidl_typesupport_c
+[1.997s] [ 61%] [32m[1mLinking C shared library libvillage_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.030s] [ 61%] Built target village_interfaces__rosidl_typesupport_introspection_c
+[2.145s] [ 64%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.149s] [ 67%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_cpp.so[0m
+[2.181s] [ 70%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.185s] [ 70%] Built target village_interfaces__rosidl_typesupport_cpp
+[2.200s] [ 70%] Built target village_interfaces__rosidl_typesupport_fastrtps_c
+[2.226s] [ 70%] Built target village_interfaces__rosidl_typesupport_introspection_cpp
+[2.273s] [ 73%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.318s] [ 73%] Built target village_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.335s] [ 73%] Built target village_interfaces
+[2.358s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.523s] [ 76%] Built target village_interfaces__py
+[2.539s] [ 79%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_py.dir/rosidl_generator_py/village_interfaces/msg/_novel_s.c.o[0m
+[2.601s] [ 82%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/libvillage_interfaces__rosidl_generator_py.so[0m
+[2.632s] [ 82%] Built target village_interfaces__rosidl_generator_py
+[2.649s] [ 85%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.650s] [ 88%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.650s] [ 91%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.710s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.711s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.717s] [100%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.743s] [100%] Built target village_interfaces__rosidl_typesupport_c__pyext
+[2.746s] [100%] Built target village_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.747s] [100%] Built target village_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.755s] Invoked command in '/home/ke/ANU/Algo Trading/ros2Exercise/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li:/opt/ros/iron /usr/bin/cmake --build /home/ke/ANU/Algo Trading/ros2Exercise/build/village_interfaces -- -j20 -l20
+[2.801s] Invoking command in '/home/ke/ANU/Algo Trading/ros2Exercise/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li:/opt/ros/iron /usr/bin/cmake --install /home/ke/ANU/Algo Trading/ros2Exercise/build/village_interfaces
+[2.805s] -- Install configuration: ""
+[2.805s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/ament_index/resource_index/rosidl_interfaces/village_interfaces
+[2.805s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/msg/Novel.json
+[2.805s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces
+[2.805s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[2.805s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg/novel.h
+[2.805s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.806s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[2.806s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__functions.h
+[2.806s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__description.c
+[2.806s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__functions.c
+[2.806s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__type_support.c
+[2.806s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__type_support.h
+[2.806s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__struct.h
+[2.806s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/environment/library_path.sh
+[2.806s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/environment/library_path.dsv
+[2.806s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so
+[2.806s] -- Set runtime path of "/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so" to ""
+[2.806s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces
+[2.806s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[2.806s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.806s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[2.806s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__rosidl_typesupport_fastrtps_c.h
+[2.806s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.807s] -- Set runtime path of "/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.807s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces
+[2.807s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[2.807s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg/novel.hpp
+[2.807s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[2.807s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__struct.hpp
+[2.807s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__builder.hpp
+[2.807s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__traits.hpp
+[2.807s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces
+[2.807s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[2.807s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.807s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[2.807s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__rosidl_typesupport_fastrtps_cpp.hpp
+[2.807s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/dds_fastrtps
+[2.807s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.807s] -- Set runtime path of "/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.807s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces
+[2.807s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[2.807s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.807s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[2.808s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_c.h
+[2.808s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__type_support.c
+[2.808s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so
+[2.808s] -- Set runtime path of "/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.808s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so
+[2.808s] -- Set runtime path of "/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so" to ""
+[2.808s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces
+[2.808s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[2.808s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[2.808s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_cpp.hpp
+[2.808s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__type_support.cpp
+[2.808s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.808s] -- Set runtime path of "/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.808s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so
+[2.808s] -- Set runtime path of "/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.809s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/environment/pythonpath.sh
+[2.809s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/environment/pythonpath.dsv
+[2.809s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages/village_interfaces-0.0.0-py3.10.egg-info
+[2.809s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages/village_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.809s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages/village_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.809s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages/village_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.809s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages/village_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.809s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages/village_interfaces
+[2.809s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.809s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.809s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.809s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages/village_interfaces/msg
+[2.809s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages/village_interfaces/msg/_novel_s.c
+[2.809s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages/village_interfaces/msg/_novel.py
+[2.809s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages/village_interfaces/msg/__init__.py
+[2.809s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.810s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.c
+[2.810s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages/village_interfaces/__init__.py
+[2.810s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.810s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages/village_interfaces/libvillage_interfaces__rosidl_generator_py.so
+[2.831s] Listing '/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages/village_interfaces'...
+[2.831s] Compiling '/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages/village_interfaces/__init__.py'...
+[2.831s] Listing '/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages/village_interfaces/msg'...
+[2.831s] Compiling '/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages/village_interfaces/msg/__init__.py'...
+[2.831s] Compiling '/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages/village_interfaces/msg/_novel.py'...
+[2.834s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.834s] -- Set runtime path of "/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.834s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.834s] -- Set runtime path of "/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.834s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.834s] -- Set runtime path of "/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.834s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_py.so
+[2.834s] -- Set runtime path of "/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_py.so" to ""
+[2.834s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/msg/Novel.idl
+[2.834s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/msg/Novel.msg
+[2.835s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/ament_index/resource_index/package_run_dependencies/village_interfaces
+[2.835s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/ament_index/resource_index/parent_prefix_path/village_interfaces
+[2.835s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.sh
+[2.835s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.dsv
+[2.835s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/environment/path.sh
+[2.835s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/environment/path.dsv
+[2.835s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/local_setup.bash
+[2.835s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/local_setup.sh
+[2.835s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/local_setup.zsh
+[2.835s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/local_setup.dsv
+[2.835s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/package.dsv
+[2.835s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/ament_index/resource_index/packages/village_interfaces
+[2.835s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_cExport.cmake
+[2.835s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.835s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.835s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.835s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_cppExport.cmake
+[2.835s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.836s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.836s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.836s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.836s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport.cmake
+[2.836s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.836s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.836s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.836s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport.cmake
+[2.836s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.836s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_pyExport.cmake
+[2.836s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.836s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.836s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.836s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.836s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.837s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.837s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.837s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.837s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig.cmake
+[2.837s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig-version.cmake
+[2.837s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/package.xml
+[2.838s] Invoked command in '/home/ke/ANU/Algo Trading/ros2Exercise/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li:/opt/ros/iron /usr/bin/cmake --install /home/ke/ANU/Algo Trading/ros2Exercise/build/village_interfaces

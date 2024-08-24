@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "village_interfaces/srv/SellNovel_Request",
+      "fields": [
+        {
+          "name": "money",
+          "type": {
+            "type_id": 7,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "village_interfaces/srv/SellNovel_Request",
+      "hash_string": "RIHS01_39f0a675558545bf2d914277df55322349e4c11f48990842e1466a4a750452a7"
+    }
+  ]
+}

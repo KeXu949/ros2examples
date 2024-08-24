@@ -1,0 +1,143 @@
+[0.153s] Invoking command in '/home/ke/ANU/Algo Trading/ros2Exercise/build/village_wang': CMAKE_PREFIX_PATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li:/opt/ros/iron PYTHONPATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/ke/ANU/Algo Trading/ros2Exercise/build/village_wang -- -j20 -l20
+[0.179s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.306s] -- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)
+[0.340s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.347s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.358s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.371s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.481s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.482s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.573s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.682s] -- Found std_msgs: 5.0.1 (/opt/ros/iron/share/std_msgs/cmake)
+[0.703s] -- Found village_interfaces: 0.0.0 (/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/share/village_interfaces/cmake)
+[0.890s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[0.960s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.960s] -- Configured cppcheck include dirs: 
+[0.960s] -- Configured cppcheck exclude dirs and/or files: 
+[0.961s] -- Added test 'lint_cmake' to check CMake code style
+[0.962s] -- Added test 'uncrustify' to check C / C++ code style
+[0.962s] -- Configured uncrustify additional arguments: 
+[0.962s] -- Added test 'xmllint' to check XML markup files
+[0.965s] -- Configuring done
+[0.975s] -- Generating done
+[0.976s] -- Build files have been written to: /home/ke/ANU/Algo Trading/ros2Exercise/build/village_wang
+[0.997s] [35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[1.012s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[2.571s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.571s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[2.571s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.571s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.571s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.571s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.571s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.571s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.571s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.571s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.571s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[2.571s]                  from [01m[K/home/ke/ANU/Algo Trading/ros2Exercise/src/village_wang/src/wang2.cpp:1[m[K:
+[2.571s] [01m[K/home/ke/ANU/Algo Trading/ros2Exercise/src/village_wang/src/wang2.cpp:[m[K In member function ‘[01m[Kvoid SingleDogNode::sell_novel_callback(village_interfaces::srv::SellNovel_Request_<std::allocator<void> >::SharedPtr, village_interfaces::srv::SellNovel_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.571s] [01m[K/home/ke/ANU/Algo Trading/ros2Exercise/src/village_wang/src/wang2.cpp:53:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::queue<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.571s]    53 |            RCLCPP_INFO(this->get_logger(), [01;35m[K"currently have %d novels in the queue, less than the requested amout%d"[m[K, [32m[Knovels_queue.size()[m[K, num);
+[2.572s]       |                                            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+[2.572s]       |                                                                                                                                       [32m[K|[m[K
+[2.572s]       |                                                                                                                                       [32m[Kstd::queue<std::__cxx11::basic_string<char> >::size_type {aka long unsigned int}[m[K
+[2.572s] 
+[2.572s] [01m[K/home/ke/ANU/Algo Trading/ros2Exercise/src/village_wang/src/wang2.cpp:53:66:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.572s]    53 | _INFO(this->get_logger(), "currently have [01;36m[K%d[m[K novels in the queue, less than the requested amout%d", novels_queue.size(), num);
+[2.572s]       |                                           [01;36m[K~^[m[K
+[2.572s]       |                                            [01;36m[K|[m[K
+[2.572s]       |                                            [01;36m[Kint[m[K
+[2.572s]       |                                           [32m[K%ld[m[K
+[2.572s] [01m[K/home/ke/ANU/Algo Trading/ros2Exercise/src/village_wang/src/wang2.cpp:57:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::queue<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.572s]    57 |                 while([01;35m[Knovels_queue.size() < (int)num[m[K){
+[2.572s]       |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[2.572s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.572s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[2.572s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.572s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.572s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.573s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.573s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.573s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.573s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.573s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.573s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[2.573s]                  from [01m[K/home/ke/ANU/Algo Trading/ros2Exercise/src/village_wang/src/wang2.cpp:1[m[K:
+[2.573s] [01m[K/home/ke/ANU/Algo Trading/ros2Exercise/src/village_wang/src/wang2.cpp:58:53:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::queue<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.573s]    58 |            RCLCPP_INFO(this->get_logger(), [01;35m[K"waiting for more novels coming, now need %d novels"[m[K, [32m[Knum - novels_queue.size()[m[K);
+[2.573s]       |                                            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.573s]       |                                                                                                      [32m[K|[m[K
+[2.573s]       |                                                                                                      [32m[Kstd::queue<std::__cxx11::basic_string<char> >::size_type {aka long unsigned int}[m[K
+[2.573s] 
+[2.573s] [01m[K/home/ke/ANU/Algo Trading/ros2Exercise/src/village_wang/src/wang2.cpp:58:96:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.573s]    58 | "waiting for more novels coming, now need [01;36m[K%d[m[K novels", num - novels_queue.size());
+[2.573s]       |                                           [01;36m[K~^[m[K
+[2.573s]       |                                            [01;36m[K|[m[K
+[2.573s]       |                                            [01;36m[Kint[m[K
+[2.574s]       |                                           [32m[K%ld[m[K
+[2.574s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.574s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[2.574s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.574s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.574s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.574s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.574s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.574s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.574s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.574s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.574s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[2.574s]                  from [01m[K/home/ke/ANU/Algo Trading/ros2Exercise/src/village_wang/src/wang2.cpp:1[m[K:
+[2.574s] [01m[K/home/ke/ANU/Algo Trading/ros2Exercise/src/village_wang/src/wang2.cpp:65:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::queue<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.574s]    65 |            RCLCPP_INFO(this->get_logger(), [01;35m[K"currently have %d novels in the queue, greater than the requested amout%d"[m[K, [32m[Knovels_queue.size()[m[K, num);
+[2.574s]       |                                            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+[2.574s]       |                                                                                                                                          [32m[K|[m[K
+[2.575s]       |                                                                                                                                          [32m[Kstd::queue<std::__cxx11::basic_string<char> >::size_type {aka long unsigned int}[m[K
+[2.575s] 
+[2.575s] [01m[K/home/ke/ANU/Algo Trading/ros2Exercise/src/village_wang/src/wang2.cpp:65:66:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.575s]    65 | _INFO(this->get_logger(), "currently have [01;36m[K%d[m[K novels in the queue, greater than the requested amout%d", novels_queue.size(), num);
+[2.575s]       |                                           [01;36m[K~^[m[K
+[2.575s]       |                                            [01;36m[K|[m[K
+[2.575s]       |                                            [01;36m[Kint[m[K
+[2.575s]       |                                           [32m[K%ld[m[K
+[2.581s] [01m[K/home/ke/ANU/Algo Trading/ros2Exercise/src/village_wang/src/wang2.cpp:[m[K In constructor ‘[01m[KSingleDogNode::SingleDogNode(std::string)[m[K’:
+[2.581s] [01m[K/home/ke/ANU/Algo Trading/ros2Exercise/src/village_wang/src/wang2.cpp:86:83:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = village_interfaces::srv::SellNovel; CallbackT = std::_Bind<void (SingleDogNode::*(SingleDogNode*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<village_interfaces::srv::SellNovel> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’ is deprecated: use rclcpp::QoS instead of rmw_qos_profile_t [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.581s]    86 | [01;35m[Ks->create_service<village_interfaces::srv::SellNovel>([m[K
+[2.581s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[2.581s] 
+[2.581s]    87 | 
+[2.581s]       |                                                       
+[2.581s] 
+[2.581s]    88 | [01;35m[KngleDogNode::sell_novel_callback, this, _1, _2), rmw_qos_profile_services_default, sell_novel_callback_group)[m[K;
+[2.581s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.581s] 
+[2.581s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:1611[m[K,
+[2.581s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.582s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.582s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[2.582s]                  from [01m[K/home/ke/ANU/Algo Trading/ros2Exercise/src/village_wang/src/wang2.cpp:1[m[K:
+[2.582s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:190:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.582s]   190 | [01;36m[KNode[m[K::create_service(
+[2.582s]       | [01;36m[K^~~~[m[K
+[5.866s] [100%] [32m[1mLinking CXX executable wang2_node[0m
+[6.140s] [100%] Built target wang2_node
+[6.150s] Invoked command in '/home/ke/ANU/Algo Trading/ros2Exercise/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li:/opt/ros/iron PYTHONPATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/ke/ANU/Algo Trading/ros2Exercise/build/village_wang -- -j20 -l20
+[6.170s] Invoking command in '/home/ke/ANU/Algo Trading/ros2Exercise/build/village_wang': CMAKE_PREFIX_PATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li:/opt/ros/iron PYTHONPATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /home/ke/ANU/Algo Trading/ros2Exercise/build/village_wang
+[6.177s] -- Install configuration: ""
+[6.177s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+[6.177s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+[6.177s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+[6.177s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+[6.177s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/environment/path.sh
+[6.177s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/environment/path.dsv
+[6.177s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/local_setup.bash
+[6.177s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/local_setup.sh
+[6.177s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/local_setup.zsh
+[6.177s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/local_setup.dsv
+[6.177s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/package.dsv
+[6.178s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/ament_index/resource_index/packages/village_wang
+[6.178s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+[6.178s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+[6.178s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/package.xml
+[6.178s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/lib/village_wang/wang2_node
+[6.182s] -- Set runtime path of "/home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/lib/village_wang/wang2_node" to ""
+[6.184s] Invoked command in '/home/ke/ANU/Algo Trading/ros2Exercise/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li:/opt/ros/iron PYTHONPATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /home/ke/ANU/Algo Trading/ros2Exercise/build/village_wang

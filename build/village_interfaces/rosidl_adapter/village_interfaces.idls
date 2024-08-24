@@ -1,0 +1,3 @@
+/home/ke/ANU/Algo Trading/ros2Exercise/build/village_interfaces/rosidl_adapter/village_interfaces:msg/Novel.idl
+/home/ke/ANU/Algo Trading/ros2Exercise/build/village_interfaces/rosidl_adapter/village_interfaces:srv/BorrowMoney.idl
+/home/ke/ANU/Algo Trading/ros2Exercise/build/village_interfaces/rosidl_adapter/village_interfaces:srv/SellNovel.idl

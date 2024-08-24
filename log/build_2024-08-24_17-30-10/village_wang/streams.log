@@ -1,0 +1,26 @@
+[0.151s] Invoking command in '/home/ke/ANU/Algo Trading/ros2Exercise/build/village_wang': CMAKE_PREFIX_PATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li:/opt/ros/iron PYTHONPATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/ke/ANU/Algo Trading/ros2Exercise/build/village_wang -- -j20 -l20
+[0.189s] [35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[0.206s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[5.034s] [100%] [32m[1mLinking CXX executable wang2_node[0m
+[5.301s] [100%] Built target wang2_node
+[5.311s] Invoked command in '/home/ke/ANU/Algo Trading/ros2Exercise/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li:/opt/ros/iron PYTHONPATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/ke/ANU/Algo Trading/ros2Exercise/build/village_wang -- -j20 -l20
+[5.331s] Invoking command in '/home/ke/ANU/Algo Trading/ros2Exercise/build/village_wang': CMAKE_PREFIX_PATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li:/opt/ros/iron PYTHONPATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /home/ke/ANU/Algo Trading/ros2Exercise/build/village_wang
+[5.336s] -- Install configuration: ""
+[5.336s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+[5.336s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+[5.336s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+[5.336s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+[5.336s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/environment/path.sh
+[5.336s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/environment/path.dsv
+[5.336s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/local_setup.bash
+[5.336s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/local_setup.sh
+[5.336s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/local_setup.zsh
+[5.336s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/local_setup.dsv
+[5.336s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/package.dsv
+[5.337s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/ament_index/resource_index/packages/village_wang
+[5.337s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+[5.337s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+[5.337s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/package.xml
+[5.337s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/lib/village_wang/wang2_node
+[5.340s] -- Set runtime path of "/home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/lib/village_wang/wang2_node" to ""
+[5.341s] Invoked command in '/home/ke/ANU/Algo Trading/ros2Exercise/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li:/opt/ros/iron PYTHONPATH=/home/ke/ANU/Algo Trading/ros2Exercise/install/village_interfaces/lib/python3.10/site-packages:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /home/ke/ANU/Algo Trading/ros2Exercise/build/village_wang

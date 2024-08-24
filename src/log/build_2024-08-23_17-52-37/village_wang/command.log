@@ -1,0 +1,1 @@
+Invoking command in '/home/ke/ANU/Algo Trading/ros2Exercise/src/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li:/opt/ros/iron /usr/bin/cmake --build /home/ke/ANU/Algo Trading/ros2Exercise/src/build/village_wang -- -j20 -l20

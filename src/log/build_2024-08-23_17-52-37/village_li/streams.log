@@ -1,0 +1,41 @@
+[0.364s] Invoking command in '/home/ke/ANU/Algo Trading/ros2Exercise/src/village_li': PYTHONPATH=/home/ke/ANU/Algo Trading/ros2Exercise/src/build/village_li/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ke/ANU/Algo Trading/ros2Exercise/src/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/village_li build --build-base /home/ke/ANU/Algo Trading/ros2Exercise/src/build/village_li/build install --record /home/ke/ANU/Algo Trading/ros2Exercise/src/build/village_li/install.log --single-version-externally-managed install_data
+[0.504s] running egg_info
+[0.504s] creating ../build/village_li/village_li.egg-info
+[0.504s] writing ../build/village_li/village_li.egg-info/PKG-INFO
+[0.505s] writing dependency_links to ../build/village_li/village_li.egg-info/dependency_links.txt
+[0.505s] writing entry points to ../build/village_li/village_li.egg-info/entry_points.txt
+[0.505s] writing requirements to ../build/village_li/village_li.egg-info/requires.txt
+[0.505s] writing top-level names to ../build/village_li/village_li.egg-info/top_level.txt
+[0.505s] writing manifest file '../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.506s] reading manifest file '../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.506s] writing manifest file '../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.506s] running build
+[0.506s] running build_py
+[0.506s] creating /home/ke/ANU/Algo Trading/ros2Exercise/src/build/village_li/build
+[0.506s] creating /home/ke/ANU/Algo Trading/ros2Exercise/src/build/village_li/build/lib
+[0.507s] creating /home/ke/ANU/Algo Trading/ros2Exercise/src/build/village_li/build/lib/village_li
+[0.507s] copying village_li/li4.py -> /home/ke/ANU/Algo Trading/ros2Exercise/src/build/village_li/build/lib/village_li
+[0.507s] copying village_li/li3.py -> /home/ke/ANU/Algo Trading/ros2Exercise/src/build/village_li/build/lib/village_li
+[0.507s] copying village_li/__init__.py -> /home/ke/ANU/Algo Trading/ros2Exercise/src/build/village_li/build/lib/village_li
+[0.507s] running install
+[0.507s] running install_lib
+[0.507s] creating /home/ke/ANU/Algo Trading/ros2Exercise/src/install/village_li/lib/python3.10/site-packages/village_li
+[0.507s] copying /home/ke/ANU/Algo Trading/ros2Exercise/src/build/village_li/build/lib/village_li/li4.py -> /home/ke/ANU/Algo Trading/ros2Exercise/src/install/village_li/lib/python3.10/site-packages/village_li
+[0.507s] copying /home/ke/ANU/Algo Trading/ros2Exercise/src/build/village_li/build/lib/village_li/li3.py -> /home/ke/ANU/Algo Trading/ros2Exercise/src/install/village_li/lib/python3.10/site-packages/village_li
+[0.507s] copying /home/ke/ANU/Algo Trading/ros2Exercise/src/build/village_li/build/lib/village_li/__init__.py -> /home/ke/ANU/Algo Trading/ros2Exercise/src/install/village_li/lib/python3.10/site-packages/village_li
+[0.508s] byte-compiling /home/ke/ANU/Algo Trading/ros2Exercise/src/install/village_li/lib/python3.10/site-packages/village_li/li4.py to li4.cpython-310.pyc
+[0.508s] byte-compiling /home/ke/ANU/Algo Trading/ros2Exercise/src/install/village_li/lib/python3.10/site-packages/village_li/li3.py to li3.cpython-310.pyc
+[0.508s] byte-compiling /home/ke/ANU/Algo Trading/ros2Exercise/src/install/village_li/lib/python3.10/site-packages/village_li/__init__.py to __init__.cpython-310.pyc
+[0.508s] running install_data
+[0.508s] creating /home/ke/ANU/Algo Trading/ros2Exercise/src/install/village_li/share/ament_index
+[0.508s] creating /home/ke/ANU/Algo Trading/ros2Exercise/src/install/village_li/share/ament_index/resource_index
+[0.508s] creating /home/ke/ANU/Algo Trading/ros2Exercise/src/install/village_li/share/ament_index/resource_index/packages
+[0.508s] copying resource/village_li -> /home/ke/ANU/Algo Trading/ros2Exercise/src/install/village_li/share/ament_index/resource_index/packages
+[0.508s] copying package.xml -> /home/ke/ANU/Algo Trading/ros2Exercise/src/install/village_li/share/village_li
+[0.508s] running install_egg_info
+[0.509s] Copying ../build/village_li/village_li.egg-info to /home/ke/ANU/Algo Trading/ros2Exercise/src/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info
+[0.509s] running install_scripts
+[0.522s] Installing li3_node script to /home/ke/ANU/Algo Trading/ros2Exercise/src/install/village_li/lib/village_li
+[0.522s] Installing li4_node script to /home/ke/ANU/Algo Trading/ros2Exercise/src/install/village_li/lib/village_li
+[0.522s] writing list of installed files to '/home/ke/ANU/Algo Trading/ros2Exercise/src/build/village_li/install.log'
+[0.536s] Invoked command in '/home/ke/ANU/Algo Trading/ros2Exercise/src/village_li' returned '0': PYTHONPATH=/home/ke/ANU/Algo Trading/ros2Exercise/src/build/village_li/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ke/ANU/Algo Trading/ros2Exercise/src/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/village_li build --build-base /home/ke/ANU/Algo Trading/ros2Exercise/src/build/village_li/build install --record /home/ke/ANU/Algo Trading/ros2Exercise/src/build/village_li/install.log --single-version-externally-managed install_data

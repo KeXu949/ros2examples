@@ -1,0 +1,26 @@
+[0.145s] Invoking command in '/home/ke/ANU/Algo Trading/ros2Exercise/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li:/opt/ros/iron /usr/bin/cmake --build /home/ke/ANU/Algo Trading/ros2Exercise/build/village_wang -- -j20 -l20
+[0.176s] [35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[0.188s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[4.286s] [100%] [32m[1mLinking CXX executable wang2_node[0m
+[4.488s] [100%] Built target wang2_node
+[4.497s] Invoked command in '/home/ke/ANU/Algo Trading/ros2Exercise/build/village_wang' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li:/opt/ros/iron /usr/bin/cmake --build /home/ke/ANU/Algo Trading/ros2Exercise/build/village_wang -- -j20 -l20
+[4.524s] Invoking command in '/home/ke/ANU/Algo Trading/ros2Exercise/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li:/opt/ros/iron /usr/bin/cmake --install /home/ke/ANU/Algo Trading/ros2Exercise/build/village_wang
+[4.527s] -- Install configuration: ""
+[4.527s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+[4.528s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+[4.528s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+[4.528s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+[4.528s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/environment/path.sh
+[4.528s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/environment/path.dsv
+[4.528s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/local_setup.bash
+[4.528s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/local_setup.sh
+[4.528s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/local_setup.zsh
+[4.528s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/local_setup.dsv
+[4.528s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/package.dsv
+[4.528s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/ament_index/resource_index/packages/village_wang
+[4.528s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+[4.528s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+[4.528s] -- Up-to-date: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/share/village_wang/package.xml
+[4.528s] -- Installing: /home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/lib/village_wang/wang2_node
+[4.530s] -- Set runtime path of "/home/ke/ANU/Algo Trading/ros2Exercise/install/village_wang/lib/village_wang/wang2_node" to ""
+[4.532s] Invoked command in '/home/ke/ANU/Algo Trading/ros2Exercise/build/village_wang' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ke/ANU/Algo Trading/ros2Exercise/install/village_li:/opt/ros/iron /usr/bin/cmake --install /home/ke/ANU/Algo Trading/ros2Exercise/build/village_wang
